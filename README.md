@@ -1,5 +1,4 @@
 ## cypressWithPOM
-
 ## Prerequisites
 node to be installed 
   for Reference Download Node.js from the link:- 
@@ -15,4 +14,5 @@ node to be installed
 `npx cypress run --spec ./path of the file/`
 
 ## Generate Allure Reports
+Execute command `npx cypress run` and then
 `npm run generate-allure-reports` 
