@@ -13,6 +13,6 @@ node to be installed
 ## Command to run specific spec file
 `npx cypress run --spec ./path of the file/`
 
-## Generate Allure Reports
+## Command to generate Allure Reports
 Execute command `npx cypress run` and then
 `npm run generate-allure-reports` 
