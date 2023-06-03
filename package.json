@@ -1,0 +1,28 @@
+{
+  "name": "cypresswithpom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "allure-commandline": "^2.22.1",
+    "cypress": "^12.5.1",
+    "mocha-allure-reporter": "^1.4.0"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.0.2"
+  },
+  "scripts": {
+    "test": "cypress run",
+    "generate-allure-report": "allure generate allure-results --clean && allure open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GitDpkDeshwal/cypresswithpom.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GitDpkDeshwal/cypresswithpom/issues"
+  },
+  "homepage": "https://github.com/GitDpkDeshwal/cypresswithpom#readme"
+}
